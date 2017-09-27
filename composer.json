@@ -1,0 +1,20 @@
+{
+    "name": "ukorjidechi/mongodb-php-connector",
+    "description": "A wrapper class for connecting to mongoDB base on MongoDB PHP driver",
+    "keywords": ["MongoDB", "PHP", "mongoDB connector"],
+    "type": "library",
+    "require": {
+        "mongodb/mongodb": "^1.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ukor Jidechi Ekundayo",
+            "email": "ukorjidechi@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": { "ukorJidechi\\mongoDBConnector\\": "src/" }
+    }
+}
